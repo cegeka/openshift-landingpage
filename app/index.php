@@ -12,7 +12,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400i|Source+Sans+Pro:300,400,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" rel="stylesheet">
-    
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="themefisher-fonts.css">
@@ -31,7 +31,7 @@
     <div class="container">
       <nav class="navbar navigation" id="top-nav">
         <a class="navbar-brand logo" href="#">
-          <h1><?php if (getenv('CUSTOMER')) { echo 'Managed container platform for ' . getenv('CUSTOMER'); } ?></h1>
+          <h1><?php if (getenv('CUSTOMER')) { echo 'Landing page for ' . getenv('CUSTOMER'); } ?></h1>
         </a>
 
         <button class="navbar-toggler hidden-lg-up float-lg-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" >
@@ -42,7 +42,7 @@
       </nav>
     </div>
 
-    
+
     <section class="hero-area">
       <div class="container">
         <div class="row">
@@ -61,19 +61,18 @@
       </div>
     </section>
 
-    
     <footer>
       <div class="container text-center">
         <div class="row">
           <div class="col-md-12">
             <div class="block">
+              <a href="" class="footer-logo"><?php $start = microtime(true); $end = microtime(true); $hostname = gethostname(); printf("Page was generated in %f seconds on $hostname", $end - $start); ?></a>
             </div>
           </div>
         </div>
       </div>
     </footer>
 
-    
     <script src="https://themes.gohugo.io//theme/vex-hugo/js/vendor/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
