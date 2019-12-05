@@ -8,12 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="" content="">
 
-    <link rel="shortcut icon" type="image/x-icon" href="https://www.cegeka.com/hubfs/favicon-1.ico?t=1540302732737">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400i|Source+Sans+Pro:300,400,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <link rel="stylesheet" type="text/css" href="themefisher-fonts.css">
     <link rel="stylesheet" type="text/css" href="owl.carousel.css">
@@ -73,13 +73,13 @@
       </div>
     </footer>
 
-    <script src="https://themes.gohugo.io//theme/vex-hugo/js/vendor/jquery-2.1.1.min.js"></script>
+    <script src="js/vendor/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
-    <script src="https://themes.gohugo.io//theme/vex-hugo/js/vendor/modernizr-2.6.2.min.js"></script>
-    <script src="https://themes.gohugo.io//theme/vex-hugo/js/owl.carousel.min.js"></script>
-    <script src="https://themes.gohugo.io//theme/vex-hugo/js/jquery.magnific-popup.min.js"></script>
-    <script src="https://themes.gohugo.io//theme/vex-hugo/js/main.js"></script>
+    <script src="js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/main.js"></script>
 
   </body>
 </html>
