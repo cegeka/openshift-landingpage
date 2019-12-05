@@ -10,9 +10,9 @@
 
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400i|Source+Sans+Pro:300,400,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" rel="stylesheet">
-
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Droid+Serif:400i|Source+Sans+Pro:300,400,600,700" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" as="style" onload="this.rel='stylesheet'">
+`
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <link rel="stylesheet" type="text/css" href="themefisher-fonts.css">
@@ -74,7 +74,7 @@
     </footer>
 
     <script src="js/vendor/jquery-2.1.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+    <script src="js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
