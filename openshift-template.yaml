@@ -159,11 +159,11 @@ parameters:
   name: NAMESPACE
   required: true
   value: openshift
-- description: Version of PHP image to be used (7.1 by default).
+- description: Version of PHP image to be used (7.2 by default).
   displayName: PHP Version
   name: PHP_VERSION
   required: true
-  value: "7.1"
+  value: "7.2"
 - description: Maximum amount of memory the container can use.
   displayName: Memory Limit
   name: MEMORY_LIMIT
